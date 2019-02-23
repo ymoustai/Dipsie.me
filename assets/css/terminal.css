@@ -88,7 +88,9 @@ body {
   fill: #333;
   stroke: #555;
 }
-
+ a{
+ color: #00FFF;
+  } 
 .sec {
    stroke: #f55;
 }
