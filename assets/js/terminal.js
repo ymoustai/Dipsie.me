@@ -13,7 +13,7 @@ function togglePlay() {
   return music.paused ? music.play() : music.pause();
 };
 
-var audio = document.getElementById("myaudio");
+var audio = document.getElementById("music");
   audio.volume = 0.3;
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
