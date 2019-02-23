@@ -121,7 +121,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           togglePlay();
           break
         case '911':
-          var result = "<h2>Help</h2><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute<br><b>music</b>: pause or resume<br><b>clear</b>: clear terminal<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
+          var result = "<h2>Help</h2><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute.<br><b>music</b>: pause or resume.<br><b>clear</b>: clear terminal.<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
           output(result);
           break;
         case 'education':
