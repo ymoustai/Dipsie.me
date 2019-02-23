@@ -121,7 +121,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           togglePlay();
           break
         case '911':
-          var result = "<h2>Help</h2><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute.<br><b>music</b>: pause or resume.<br><b>clear</b>: clear terminal.<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
+          var result = "<h3>Help</h3><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute.<br><b>music</b>: pause or resume.<br><b>clear</b>: clear terminal.<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
           output(result);
           break;
         case 'education':
@@ -148,14 +148,14 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output(result);
           break;
         case 'whoami':
-          var result = "<h1>Yassir Moustaine</h1><p>Developer, Designer, and Competitive Gamer</p><p>I am 20 years old. Currently living in Khouribga city. I am a student 1337 coding school under 42 school pedagogy in Khouribga, Morocco. I am interested in DevOps, data structures, computer security, new technologies, and communication theories. I am an open-source activist, because I'm a fan of peer learning pedagogy. I love sharing code, love, and knowledge. I love traveling because it is a creative way to share knowledge, to meet new people, and to discover new cultures. I love operating systems because they teach you the core of computers.</p>" + "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Volleyball, Literature, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>"
+          var result = "<h3>Yassir Moustaine</h3><p>Developer, Designer, and Competitive Gamer</p><p>I am 20 years old. Currently living in Khouribga city. I am a student 1337 coding school under 42 school pedagogy in Khouribga, Morocco. I am interested in DevOps, data structures, computer security, new technologies, and communication theories. I am an open-source activist, because I'm a fan of peer learning pedagogy. I love sharing code, love, and knowledge. I love traveling because it is a creative way to share knowledge, to meet new people, and to discover new cultures. I love operating systems because they teach you the core of computers.</p>" + "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Volleyball, Literature, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>"
           output(result);
           break;
         case 'love':
           output("<h3>404...<br>Just hard times for the moment.</h3>");
           break;
         case 'hamza':
-            output("<h4>zindi9 cyka nahui mofo nigger   I confirm hes gay</h4>");
+            output("<h5>zindi9 cyka nahui mofo nigger   I confirm hes gay</h5>");
             break;
         default:
           if (cmd) {
