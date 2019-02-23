@@ -13,6 +13,9 @@ function togglePlay() {
   return music.paused ? music.play() : music.pause();
 };
 
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   var foont = document.getElementById("lala");
   lala.style.fontSize = "50px";
