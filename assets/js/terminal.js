@@ -14,7 +14,7 @@ function togglePlay() {
 };
 
 var audio = document.getElementById("music");
-  audio.volume = 0.05;
+  audio.volume = 0.1;
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   var foont = document.getElementById("lala");
