@@ -88,9 +88,23 @@ body {
   fill: #333;
   stroke: #555;
 }
- a{
- color: #00FFF;
-  } 
+a:link {
+
+color: #00ffff;
+
+}
+
+a:visited {
+
+color: #00ffff;
+
+}
+
+a:hover {
+
+color: #00ffff;
+
+}
 .sec {
    stroke: #f55;
 }
