@@ -7,7 +7,7 @@ html, body {
   margin: 0;
 }
 body {
-  font-size: 14pt;
+  font-size: 14px;
   font-family: courier, monospace;
   color: white;
   background-color: black;
@@ -67,6 +67,13 @@ body {
   font: inherit;
   border: none;
   color: inherit;
+}
+#c {
+  color: #0bc;
+}
+
+#b {
+  color: #ff0096;
 }
 .ls-files {
   height: 45px;

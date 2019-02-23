@@ -1,6 +1,6 @@
 $(function() {
   
-    $('.prompt').html('root@dipsie:~% ');
+    $('.prompt').html("root@dipsie:<span id='b'>~</span><span id='c'>% ");
 
   var term = new Terminal('#input-line .cmdline', '#container output');
   term.init();
