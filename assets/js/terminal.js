@@ -7,6 +7,10 @@ $(function() {
   
 });
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  document.elm.style.font-size = "60px";
+}
+
 var music = document.getElementById("music");
 
 function togglePlay() {
