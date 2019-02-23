@@ -3767,6 +3767,7 @@ input, select, textarea {
 		background-position: 50% -3%;
 		background-repeat: repeat-y;
 		background-size: 150% auto;
+		background-color: #871ca8;
 	}
 
 	body.is-mobile #wrapper > section > header {
