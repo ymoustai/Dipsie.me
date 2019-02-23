@@ -13,6 +13,11 @@ function togglePlay() {
   return music.paused ? music.play() : music.pause();
 };
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+var foont = document.getElementById("lala");
+lala.style.fontSize = "60px";
+}
+
 var util = util || {};
 util.toArray = function(list) {
   return Array.prototype.slice.call(list || [], 0);
