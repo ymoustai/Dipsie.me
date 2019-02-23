@@ -114,18 +114,18 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           this.value = '';
           return;
          case 'help':
-          var result = "<h3>Haha you got pranked, type \"911\" for help.</h3>";
+          var result = "<h5>Haha you got pranked, type \"911\" for help.</h5>";
           output(result);
           break;
         case 'music':
           togglePlay();
           break
         case '911':
-          var result = "<h3>Help</h3><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute.<br><b>music</b>: pause or resume.<br><b>clear</b>: clear terminal.<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
+          var result = "<h5>Help</h5><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute.<br><b>music</b>: pause or resume.<br><b>clear</b>: clear terminal.<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
           output(result);
           break;
         case 'education':
-          var result = "<h3>Education</h3>"+"<h5>Just believe in peer learning, actually self taught since the age of 12. Just genius :)</h5>"+"<h5>Currently studying IT / software engineering at <a href='https://1337.ma'>1337</a></h5>";
+          var result = "<h5>Education</h5>"+"<h6>Just believe in peer learning, actually self taught since the age of 12. Just genius :)</h5>"+"<h5>Currently studying IT / software engineering at <a href='https://1337.ma'>1337</a></h6>";
           output(result);
           break;
         case 'geekn\'t':
@@ -136,23 +136,23 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output('to be discussed later ...');
           break;
         case 'experience':
-          var result = "<h3>Young but passionate</h3><h4>Come on I'm currently 20 years old, actually flexible at any theme</h4><br>I'm really interested into DevOps and SysAdmin.<br>2018 Moroccan Collegiate Programming Contest System Staff member<br>2018 Arab and Africa Collegiate Programming Contest System Staff member<br>Worked at KGB Hosting as a Technical Support Specialist<br><h2>The creator of spipaa7, and cancerdotexe</h2>";
+          var result = "<h5>Young but passionate</h5><h6>Come on I'm currently 20 years old, actually flexible at any theme</h4><br>I'm really interested into DevOps and SysAdmin.<br>2018 Moroccan Collegiate Programming Contest System Staff member<br>2018 Arab and Africa Collegiate Programming Contest System Staff member<br>Worked at KGB Hosting as a Technical Support Specialist<br><h2>The creator of spipaa7, and cancerdotexe</h6>";
           output(result);
           break;
         case 'interests': 
-          var result = "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Gaming , Football, Design, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>";
+          var result = "<h5>Interests</h5><p>Algorithms, Data Structures, Problem Solving, Gaming , Football, Design, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>";
           output(result);
           break;
         case 'contact':
-          var result = "<h3>Contact</h3><h4>Email  ‏‏‎  ‏‏‎  ‏‏‎ ‏‏‎   : <a href='mailto:contact@dipsie.me'>contact@dipsie.me</a><br>Github ‏‏‎  ‏‏‎  ‏‏‎ : <a href='https://github.com/ymoustai'>Spipa7</a><br>Facebook  ‏‏‎ : <a href='https://www.facebook.com/Dipsiex70'>Dipsie</a><br>Instagram  : <a href='https://www.instagram.com/dipsiex70'>Dipsie</a></h4>";
+          var result = "<h5>Contact</h5><h6>Email  ‏‏‎  ‏‏‎  ‏‏‎ ‏‏‎   : <a href='mailto:contact@dipsie.me'>contact@dipsie.me</a><br>Github ‏‏‎  ‏‏‎  ‏‏‎ : <a href='https://github.com/ymoustai'>Spipa7</a><br>Facebook  ‏‏‎ : <a href='https://www.facebook.com/Dipsiex70'>Dipsie</a><br>Instagram  : <a href='https://www.instagram.com/dipsiex70'>Dipsie</a></h6>";
           output(result);
           break;
         case 'whoami':
-          var result = "<h3>Yassir Moustaine</h3><p>Developer, Designer, and Competitive Gamer</p><p>I am 20 years old. Currently living in Khouribga city. I am a student 1337 coding school under 42 school pedagogy in Khouribga, Morocco. I am interested in DevOps, data structures, computer security, new technologies, and communication theories. I am an open-source activist, because I'm a fan of peer learning pedagogy. I love sharing code, love, and knowledge. I love traveling because it is a creative way to share knowledge, to meet new people, and to discover new cultures. I love operating systems because they teach you the core of computers.</p>" + "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Volleyball, Literature, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>"
+          var result = "<h5>Yassir Moustaine</h5><p>Developer, Designer, and Competitive Gamer</p><p>I am 20 years old. Currently living in Khouribga city. I am a student 1337 coding school under 42 school pedagogy in Khouribga, Morocco. I am interested in DevOps, data structures, computer security, new technologies, and communication theories. I am an open-source activist, because I'm a fan of peer learning pedagogy. I love sharing code, love, and knowledge. I love traveling because it is a creative way to share knowledge, to meet new people, and to discover new cultures. I love operating systems because they teach you the core of computers.</p>" + "<h3>Interests</h3><p>Algorithms, Data Structures, Problem Solving, Cyber Security , Volleyball, Literature, Communication, Photography, Internet of Things , Operating Systems, Cloud Computing , Geometry , Big Data , Volunteering, Traveling, Open Source Technologies...</p>"
           output(result);
           break;
         case 'love':
-          output("<h3>404...<br>Just hard times for the moment.</h3>");
+          output("<h5>404...<br>Just hard times for the moment.</h5>");
           break;
         case 'hamza':
             output("<h5>zindi9 cyka nahui mofo nigger   I confirm hes gay</h5>");
