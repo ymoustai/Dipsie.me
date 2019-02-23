@@ -160,7 +160,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output(result);
           break;
         case 'love':
-          output("<h5>404...<br>Just hard times for the moment.</h5>");
+          output("<h5>404...<br>Just hard times for the moment.</h5><br><p>Jk, I'm married.</p>");
           break;
         case 'hamza':
             output("<h5>zindi9 cyka nahui mofo nigger   I confirm hes gay</h5>");
