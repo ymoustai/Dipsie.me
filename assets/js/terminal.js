@@ -7,6 +7,12 @@ $(function() {
   
 });
 
+var music = document.getElementById("music");
+
+function togglePlay() {
+  return music.paused ? music.play() : music.pause();
+};
+
 var util = util || {};
 util.toArray = function(list) {
   return Array.prototype.slice.call(list || [], 0);
@@ -20,7 +26,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   var output_ = document.querySelector(outputContainer);
 
   const CMDS_ = [
-    'whoami', 'education', 'security', 'programming', 'interests', 'love', 'media' ,'contact', 'blog', 'clear', 'help' 
+    'whoami', 'education', 'interests', 'love', 'evil', 'love', 'geekn\'t' ,'911', 'clear', 'help', 'music' 
   ];
   
   var fs_ = null;
@@ -111,8 +117,11 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           var result = "<h3>Haha you got pranked, type \"911\" for help.</h3>";
           output(result);
           break;
+        case 'music':
+          togglePlay();
+          break
         case '911':
-          var result = "<h2>Help</h2><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute<br><b>clear</b>: clear terminal<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
+          var result = "<h2>Help</h2><p><b>whoami</b>: who tf is Dipsie.<br><b>education</b>: display all my information about my education.<br><b>interests</b>: display all my interests.<br><b>love</b>: are you curious about my love?<br><b><b>contact</b>: say hi<br><b>evil</b>: gtfo pls I'm cute<br><b>music</b>: pause or resume<br><b>clear</b>: clear terminal<br><b><i>geekn't</i>: </b>are you?<br><b>help</b>: display this menu.</p>";
           output(result);
           break;
         case 'education':
