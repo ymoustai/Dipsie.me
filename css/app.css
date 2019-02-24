@@ -265,10 +265,10 @@ h2 {
 
 h2.skill-heading {
   position: absolute;
-  padding-left: 50px;
+  padding-left: 80px;
   z-index: 1;
-  top: 7%;
-  left: -30%;
+  top: 25%;
+  left: -32.5%;
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
   font-size: 30px;
@@ -3685,7 +3685,7 @@ nav {
   height: 35px;
   line-height: 35px;
   color: #c0c4d6;
-  font-size: 14px;
+  font-size: 8px;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -3702,7 +3702,7 @@ nav {
 
 .skill-bar-percent {
   position: absolute;
-  right: 50px;
+  right: 0px;
   top: -50px;
   font-size: 14px;
   height: 35px;
@@ -3714,7 +3714,6 @@ nav {
 
 .sectit {
   text-align: center;
-  padding: 0 266px;
   margin-bottom: 20px;
 }
 

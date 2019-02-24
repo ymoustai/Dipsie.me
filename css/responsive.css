@@ -146,8 +146,8 @@ div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .logo {
     .jems-testi-inner {
         padding: 50px 20px;
     }
-    .section-title {
-        padding: 0 180px;
+    .sectit {
+        font-size: 1px;
     }
     .resume-content.ml-40 {
         margin-left: 15px;
@@ -383,8 +383,8 @@ div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .logo {
     .resume-content.mr-40 {
     margin-left: 40px;
     }
-    .section-title {
-        padding: 0 100px;
+    .sectit {
+        font-size: 1px;
     }
     .row.project-list .col-md-4:nth-child(1) .single-project-item {
         height: 350px;
@@ -691,6 +691,12 @@ div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .logo {
     .about-right p {
     padding-right: 0;
     }
+    h2.zbi{
+    top:-130%;
+    left: 15%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
     h2.skill-heading {
     top: -130%;
     left: 15%;
@@ -922,8 +928,8 @@ div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .logo {
     margin-left: 20px;
     margin-right: 20px;
 }
-    .section-title {
-        padding: 0 0px;
+    .sectit {
+        font-size: 1px;
     }
     .project-titles li {
         margin-bottom: 15px;
@@ -1630,9 +1636,6 @@ div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .logo {
     position: initial;
     }
 
-    .section-title {
-        padding: 0 100px;
-    }
     .row.project-list .col-md-4:nth-child(1) .single-project-item {
         height: 350px;
     }
