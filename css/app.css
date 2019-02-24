@@ -594,7 +594,7 @@ span.map-info-content {
   color: #ea0266;
 }
 
-.homepage-2.dark .section-title h2 {
+.homepage-2.dark .sectit h2 {
   color: #ea0266;
 }
 
@@ -1050,7 +1050,7 @@ span.map-info-content {
   background: #ea0266;
 }
 
-.homepage-2 .section-title h2 {
+.homepage-2 .sectit h2 {
   color: #3e4455;
   font-family: Montserrat, sans-serif;
 }
@@ -1352,7 +1352,7 @@ body.homepage-3.dark {
   color: #ea0266;
 }
 
-.homepage-3.dark .section-title h2 {
+.homepage-3.dark .sectit h2 {
   color: #ea0266;
 }
 
@@ -1892,7 +1892,7 @@ body.homepage-3.dark {
   color: #ff023e;
 }
 
-.homepage-3 .section-title h2 {
+.homepage-3 .sectit h2 {
   color: #3e4455;
   font-family: Montserrat, sans-serif;
 }
@@ -3712,13 +3712,13 @@ nav {
   font-family: Montserrat, sans-serif;
 }
 
-.section-title {
+.sectit {
   text-align: center;
   padding: 0 266px;
   margin-bottom: 20px;
 }
 
-.section-title h2 {
+.sectit h2 {
   margin-bottom: 18px;
 }
 
@@ -3827,7 +3827,7 @@ nav {
   padding-top: 0;
 }
 
-.team-area .section-title {
+.team-area .sectit {
   margin-bottom: 80px;
 }
 
@@ -4175,7 +4175,7 @@ nav {
   display: none;
 }
 
-.feature-area .section-title {
+.feature-area .sectit {
   margin-bottom: 60px;
 }
 
@@ -4358,7 +4358,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.testimonial-area .section-title {
+.testimonial-area .sectit {
   margin-bottom: 30px;
 }
 
@@ -4447,7 +4447,7 @@ nav {
   padding-bottom: 150px;
 }
 
-.clinets-aera .section-title {
+.clinets-aera .sectit {
   margin-bottom: 70px;
 }
 
@@ -5484,7 +5484,7 @@ nav {
   height: 114px;
 }
 
-.blog-area .section-title {
+.blog-area .sectit {
   margin-bottom: 70px;
 }
 

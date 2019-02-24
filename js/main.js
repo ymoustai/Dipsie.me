@@ -217,9 +217,9 @@
 		$('.preloader-wrapper').delay(2500).fadeOut('slow');
 	});
 }(jQuery));
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  var foont = document.getElementById("section-title");
-  section-title.style.padding = "0";
-  section-title.style.margin-bottm = "0";
-}
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  document.getElementsByClassName('sectit');
+  sectit.style.margin = "50px 0 0 0";
+  sectit.style.padding = "0 0 0 0";
+}
