@@ -244,6 +244,7 @@ textarea#Message {
 
 img {
   max-width: 100%;
+  margin-left: 13px;
   height: auto;
 }
 
@@ -3601,7 +3602,8 @@ nav {
 }
 
 .about-right p {
-  margin-bottom: 35px;
+  margin-left: -50px;
+  margin-bottom: 55px;
 }
 
 .about-right h2 {
@@ -3613,7 +3615,7 @@ nav {
 .about-right h2:before {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -50px;
   width: 30px;
   height: 2px;
   background: #ea0266;
