@@ -58,6 +58,7 @@
 				event.preventDefault();
 			});
 		});
+
 		/*----------------------------
             SCROLL TO TOP
         ------------------------------*/
@@ -216,3 +217,9 @@
 		$('.preloader-wrapper').delay(2500).fadeOut('slow');
 	});
 }(jQuery));
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  var foont = document.getElementById("section-title");
+  section-title.style.padding = "0";
+  section-title.style.margin-bottm = "0";
+}
+
