@@ -1,145 +1,518 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3c10c1">
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="theme-color" content="#ffffff">
-    <title>Dipsie</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <meta name="description" content="Personal website of Yassr Moustaine." />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body class="is-preload">
-    <div id="wrapper">
-      <section class="intro">
-        <header>
-          <h1>Yassir Moustaine</h1>
-          <p>
-            Student at  🖥️
-            <a target="_blank" href="https://1337.ma">1337 School</a>
-          </p>
-          <ul class="actions">
-            <li>
-              <a href="#first" class="arrow scrolly"
-                ><span class="label">Next</span></a
-              >
-            </li>
-          </ul>
-        </header>
-        <div class="content">
-          <span class="image fill" data-position="center"
-            ><img src="res/Portrait.jpg" alt=""
-          /></span>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Yassir Moustaine - Personal Site</title>
+    <meta name="theme-color" content="#161922" />
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="GAwvDcXo5iZUJ4XbmrRVJuXOHTvi3t2dny8FgZSW">
+    <!-- favicon icons. -->
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- all css file. -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/venobox.css" type="text/css" media="screen" />
+    <link href="css/slicknav.css" rel="stylesheet">
+    <link href="css/venobox.css" rel="stylesheet">
+    <link href="css/elements.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="use-fontawesome-com/releases/v5-6-1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/notyf/notyf.min.css">
+    <link rel="stylesheet" type="text/css" href="cdnjs-cloudflare-com/ajax/libs/cookieconsent2/3-1-0/cookieconsent.min.css" />
+</head>
+<body class=" dark ">
+    <!-- scroll to top button --> 
+    <a href="#home" class="scrolltotop"><i class="faa-bounce animated fa fa-arrow-alt-up"></i></a>
+    <!-- preloder. -->
+    <div class="preloader-wrapper">
+        <div class="preloder">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
         </div>
-      </section>
-      <section id="first">
-        <header><h2>A Brief Introduction About Me</h2></header>
-        <div class="content">
-          <p>
-            <strong>Приве́т</strong> Oops, Privyet, my name is Yassir Moustaine (<b>Dipsie</b>)
-            I'm 20 years old, I am a passionate IT lover, really interested into AI, currently
-            studying IT/Software Engineering at 🖥️
-            <a href="https://1337.ma">1337</a> coding school.
-          </p>
-          <span class="image main"
-            ><img src="res/peer.jpg" alt=""
-          /></span>
-        </div>
-      </section>
-      <section>
-        <header><h2>Get in touch</h2></header>
-        <div class="content">
-          <p>
-            You could contact either  
-            via <a href="mailto:contact@dipsie.me">contact@dipsie.me</a> or
-            the <strong>FORM</strong> bellow:
-          </p>
-          <form name="contact" netlify>
-            <div class="fields">
-              <div class="field half">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div class="field half">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div class="field">
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Message"
-                  rows="7"
-                  required
-                ></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li>
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="button primary"/>
-              </li>
-            </ul>
-          </form>
-        </div>
-        <footer>
-          <ul class="items">
-            <li>
-              <h3>Email</h3>
-              <a href="mailto:contact@dipsie.me">contact@dipsie.me</a>
-            </li>
-            <li>
-              <h3>Phone</h3>
-              <a href="tel:+21270413554">+212 7 00 41 35 54</a>
-            </li>
-            <li>
-              <h3>Elsewhere</h3>
-              <ul class="icons">
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://twitter.com/dipsiex70"
-                    class="icon fa-twitter"
-                    ><span class="label">Twitter</span></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://github.com/ymoustai"
-                    class="icon fa-github"
-                    ><span class="label">GitHub</span></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </footer>
-      </section>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+    <!-- start main wrapper. -->
+    <div id="fullpage">
+        <!-- mouse follower. -->
+        <div id="follower"></div>
+        <!-- start header section. -->
+        <header id="sticker" class="header-top">
+            <div class="container-fulid">
+                <div class="col-md-2 col-sm-2">
+                    <div class="logo">
+                        <a href="index.html">
+                                                        <img src="storage/settings/January2019/V5exJ4xOk0JVmixyR4LN.png" alt="place img">
+                                                    </a>
+                    </div>
+                </div>
+                <!-- start mainmenu. -->
+                <div class="col-md-8 col-sm-8 text-center">
+                    <div class="mainmenu">
+                        <ul id="nav" class="list-inline">
+                            <li class=" current  "><a href="#home">Home</a></li>
+    <li class="  "><a href="#about">About</a></li>
+    <li class="  "><a href="#resume">Resume</a></li>
+    <li class="  "><a href="https://dipsie.me">Geek</a></li>
+    <li class="  "><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- mainmenu end. -->
+                <!-- select language start. -->
+                <div class="col-md-2 col-sm-2 text-right pr-0 ">
+                    <div class="secect-language">
+                        <ul class="list-inline">
+                            <li><a class="active" href="#">eng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- select language end. -->
+            </div>
+        </header>
+        <!-- end header section. -->
+        <!-- start header hero section. -->
+        <section id="home" class="header-hero-area section">
+            <!-- line shape background animation. -->
+            <div class="container-line">
+                <div class="container-line-center">
+                    <div class="line-item one"></div>
+                    <div class="line-item two"></div>
+                    <div class="line-item three"></div>
+                    <div class="line-item four"></div>
+                </div>
+            </div>
+            <!-- line shape background animation end. -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="slider-contents">
+                            <div class="slider-text"> <span class="intro">hello</span>
+                                <h1>I&rsquo;m <span style="background-color: transparent;">Yassir</span> Moustaine</h1>
+                                <p>I'm a self taught, experienced Full-Stack Developer. Skilled in PHP, Python and most Frontend Technologies.</p>
+                            </div> <a href="https://linkedin.com/in/stormiix/" class="comman-btn download-btn">DOWNLOAD
+                                CV <img src="img/brand-icons/hover-icon.png" alt="place img" class=""></a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <!-- <img src="/img/slider-img/hero-image-one.png" alt="place img"> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end header hero section. -->
+        <!-- social button section. -->
+        <section class="hero-social-link-area">
+            <div class="container-fulid">
+                <div class="hero-social-link">
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/dipsiex70"><span class="ti-facebook"></span></a>
+                        </li>
+                        <li><a href="https://www.twitter.com/dipsiex70"><span class="ti-twitter"></span></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/dipsie/"><span class="ti-linkedin"></span></a>
+                        </li>
+                        <li><a href="https://instagram.com/dipsiex70"><span class="ti-instagram"></span></a>
+                        </li>
+                        <li><a href="https://github.com/ymoustai"><span class="ti-github"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-down text-right">
+                    <a href="#service" class="scroll-down-btn">scroll down <img src="img/brand-icons/scroll-down-icon.png"
+                            alt="place img" class="faa-passing animated"></a>
+                </div>
+            </div>
+        </section>
+        <!-- end social button section. -->
+        <!-- start about us section. -->
+        <section id="about" class="about-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="about-left">
+                            <img src="storage/settings/January2019/SWt5hMnniMYAJQ8bUy09.jpg" alt="Hi!">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="about-right">
+                            <h2>About Me</h2>
+                            <p style="text-align: justify;"><strong>I</strong>&lsquo;m&nbsp;a thinker, electronics hobbyist, designer, gamer, and developer. I love open source technology, programming, and web design, in fact I'm interested into DevOps and System Administration. I work and play at the intersection of these 3. I&rsquo;m focused on creating simple, but modern & useful web apps.<br />ENTP, sarcastic,&nbsp;optimist. I like hard challenging problems and video games.<br />I was born in Morocco, grew up there&nbsp;and my first language is Arabic. I can speak 4 languages so far: Arabic, English, French, Spanish, Portuguese && a tiny bit of (russian + german .</p>
+<p style="text-align: justify;">You can check my recent work on <a href="https://github.com/ymoustai" target="_blank" rel="noopener"> Github</a>.</p>
+                        </div>
+                        <div class="about-meta">
+                            <div class="about-meta-links">
+                                <ul class="list-inline">
+                                    <li><a href="https://linkedin.com/in/stormiix/" class="comman-btn about-me-btn-1">RESUME
+                                            <img src="img/brand-icons/hover-icon.png" alt="place img" class=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start skill-bar section. -->
+                <div class="row">
+                    <div class="skill-left">
+                        <div class="col-md-5 col-md-offset-1">
+                            <h2 class="skill-heading">
+                                My Skills
+                            </h2>
+                            <div class="skillbar on-scroll clearfix " data-percent="95%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>Design (PS, Photography...)</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">95%</div>
+                            </div>
+                            <div class="skillbar  on-scroll mb-2 clearfix " data-percent="85%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>Imperative Programming / AI</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">85%</div>
+                            </div>
+                            <div class="skillbar  on-scroll mb-2 clearfix " data-percent="85%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>Nodejs</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-right">
+                        <div class="col-md-5 col-md-offset-1">
+                            <div class="skillbar on-scroll clearfix " data-percent="90%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>SysAdmin / DevOps</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">90%</div>
+                            </div>
+                            <div class="skillbar  on-scroll mb-2 clearfix " data-percent="60%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>Parallel Computing</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">60%</div>
+                            </div>
+                            <div class="skillbar  on-scroll mb-2 clearfix " data-percent="70%" data-scroll-class="active">
+                                <div class="skillbar-title"><span>Web Design</span>
+                                </div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end skill-bar section. -->
+            </div>
+        </section>
+        <!-- end about us section. -->
+        <!-- start service section. -->
+        <section id="service" class="service-area section-padding section">
+            <!-- line shape background animation. -->
+            <div class="container-line">
+                <div class="container-line-center">
+                    <div class="line-item one"></div>
+                    <div class="line-item two"></div>
+                    <div class="line-item three"></div>
+                    <div class="line-item four"></div>
+                </div>
+            </div>
+            <!-- end line shape background animation. -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Other Interests</h2>
+                            <p>Lorem ipsum dolor aniamet, consecte tempor incididunt ut labore niamet dolore tumber tur
+                                adipisicing elit labor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-teatimonial">
+                    <div class="service-teatimonial-single-item">
+                        <div class="service-teatimonial-item-inner"> 
+                            <h4>Electronics & DIY</h4>
+                            <p>I really do love using arduino and rasberrypi for making cool gadgets. I usually love fixing any electronic gadget issue by myself</p>
+                        </div>
+                    </div>
+                    <div class="service-teatimonial-single-item">
+                        <div class="service-teatimonial-item-inner"> 
+                            <h4>Hacking & CTFs</h4>
+                            <p>Even Idder wants to be an ethical hacker, how can I not be?</p>
+                            <br> <br><br>
+                        </div>
+                    </div>
+                    <div class="service-teatimonial-single-item">
+                        <div class="service-teatimonial-item-inner"> 
+                            <h4>AI</h4>
+                            <p>Well are they gonna rule the world?</p>
+                            <p>Wait I love music, I dont know what it has to do with AI but I play guitar, I do really love electric one.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end service section. -->
+                <!-- start resume section. -->
+        <section id="resume" class="resume-area section-padding section">
+            <!-- line shape background animation. -->
+            <div class="container-line">
+                <div class="container-line-center">
+                    <div class="line-item one"></div>
+                    <div class="line-item two"></div>
+                    <div class="line-item three"></div>
+                    <div class="line-item four"></div>
+                </div>
+            </div>
+            <!-- line shape background animation. -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Resume</h2>
+                            <p>Get to know me.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-margin">
+                    <div class="col-md-6 no-padding">
+                        <div class="resume-left">
+                            <h2 class="resume-heading"><span class="ti-crown"></span>Education:</h2>
+                        </div>
+                        <div class="resume-content resume-content-left mb-30 mr-40"> <span class="resume-date">October
+                                2019 - Present</span>
+                            <h3>Digital architecture </h3>
+                            <p>With plans on pursuing the Computer Science program.</p>
+                            <a href="#">
+                                <h4><a href = "https://1337.ma" target="_blank"><i>1337</a></i> - Khouribga, Morocco</h4>
+                            </a>
+                        </div>
+                        <div class="resume-content resume-content-left mr-40"> <span class="resume-date">September 2013
+                                - 2017 June.</span>
+                            <h3>Graduated Higher School</h3>
+                            <p>Studying Physics & chemistry sciences.</p>
+                            <a href="#">
+                                <h4>PHOSPHATES HIGH SCHOOL && IBN YASSIN HIGH SCHOOL - Khouribga, Morocco</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 no-padding">
+                        <div class="resume-left">
+                            <h2 class="resume-heading"><span class="ti-briefcase"></span>Experience:</h2>
+                        </div>
+                        <div class="resume-content ml-40"> <span class="resume-date">2018 - Present</span>
+                            <h3><img src="img/brand-icons/brand-2.png" alt="place img" style="
+                        width: 28px;
+                    ">
+                                MCPC - ACPC - MCR</h3>
+                            <a href="#">
+                                <h4>Working on Design, organistaion, system operations and contests agent on floor @ MOROCCAN COLLEGIATE PROGRAMMING CONTEST. ARABIAN COLLEGIATE PROGRAMMING CONTEST. MOROCCAN CHAMPIONSHIP OF ROBOTICS</h4>
+                            </a>
+                        </div>
+                        <div class="resume-content mb-30 ml-40"> <span class="resume-date">2015 - Present</span>
+                            <h3><img src="img/brand-icons/brand-4.png" alt="place img" style="
+                        width: 28px;
+                    ">
+                                Self-employed</h3>
+                            <p></p>
+                            <a href="#">
+                                <h4>Front End Developer && Designer @ Dipsie.me</h4>
+                            </a>
+                        </div>
+                        <div class="resume-content ml-40"> <span class="resume-date">2013 - 2015</span>
+                            <h3><img src="img/brand-icons/brand-2.png" alt="place img" style="
+                        width: 28px;
+                    ">
+                                Fiverr</h3>
+                            <a href="#">
+                                <h4>Freelancer</h4>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end resume section. -->
+                <!-- start blog section. -->
+        
+        <!-- end blog section. -->
+        <!-- start contact section. -->
+        <section id="contact" class="contact-form-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="contact-text">
+                            <p class="contact-info">My inbox is open for you.
+                                <br>Feel free to<span> ask me anything!</span> <!-- '-->
+                                <img src="img/brand-icons/indigatore-icon.png" alt="place img" class="faa-passing animated">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="contact-form-area-wrapper">
+                            <form id="digita-contact-form" method="POST">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Subject" name="subject" placeholder="Subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Your message.."></textarea>
+                                </div>
+                                <div class="form-group">
+                                <div class="g-recaptcha" data-theme="dark" id="recaptcha" data-sitekey="6Lev5BAUAAAAAHefWPSaNwzWtJdupvuHeB8SG_uB"></div>
+                            </div>
+                                <button type="submit" name="sendmail"  class="comman-btn about-me-btn">CONTACT ME
+                                    <img src="img/brand-icons/hover-icon.png" alt="place img" class="">
+                                </button>
+                                <p class="contact-send-message"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact section. -->
+        <!-- start location section. -->
+        <section class="location-area section">
+            <!-- line shape background animation. -->
+            <div class="container-line">
+                <div class="container-line-center">
+                    <div class="line-item one"></div>
+                    <div class="line-item two"></div>
+                    <div class="line-item three"></div>
+                    <div class="line-item four"></div>
+                </div>
+            </div>
+            <!-- line shape background animation end. -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="location-link">
+                            <ul>
+                                <li>
+                                    <p class="single-contact-info"><a href="tel:+212700413554">+212 700 413 554</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="single-contact-info"><a href="mailto:contact@dipsie.me">contact@dipsie.me</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-social-link">
+                            <ul class="list-inline">
+                                <li><a href="https://www.facebook.com/dipsiex70"><span class="ti-facebook"></span></a>
+                                </li>
+                                <li><a href="https://www.twitter.com/dipsiex70"><span class="ti-twitter"></span></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/dipsie/"><span class="ti-linkedin"></span></a>
+                                </li>
+                                <li><a href="https://instagram.com/dipsiex70"><span class="ti-instagram"></span></a>
+                                </li>
+                                <li><a href="https://github.com/ymoustai"><span class="ti-github"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end location section. -->
+ <!-- start footer section. -->
+        <section class="footer-bottom-area section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-text">
+                            <p>Copyright © 2019 <a href="index.html" class="theme-info">Dipsie</a>, All rights Reserved.</p>
+                            <!--'-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end footer section. -->
+    </div>
+    <!-- end main wrapper. -->
+    <!-- start all js files. -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/scrollclass.min.js"></script>
+    <script src="js/venobox.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="css/notyf/notyf.min.js"></script>
+<script src="google-com/recaptcha/api.js" async defer></script>
+    <!-- end all js files. -->
+    <script type="text/javascript">
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        }); 
+         $(document).ready(function() {
+            var contactForm = $("#digita-contact-form");
+            //We set our own custom submit function
+            contactForm.on("submit", function(e) {
+            //Prevent the default behavior of a form
+            e.preventDefault();
+            var name = $("input[name=name]").val();
+            var subject = $("input[name=subject]").val();
+            var email = $("input[name=email]").val();
+            var message = $("textarea[name=message]").val();
+            var respone = $("#g-recaptcha-response").val();
+            $.ajax({
+                type: 'POST',
+                url: '/contact',
+                data: {
+                    name: name,
+                    subject: subject,
+                    email: email,
+                    message: message,
+                    g_recaptcha_response: respone,
+                },
+                success: function (data) {
+                    var notyf = new Notyf();
+                    if (data.errors) {
+                        //check if response has errors object
+                        notyf.alert('You must fill out the form before moving forward.<br> And make sure you\'re not a robot!');
+                    } else {
+                        notyf.confirm(data.success);
+                        grecaptcha.reset();
+                    }
+                },
+            })
+        });
+    });
+    </script>
+    <script src="cdnjs-cloudflare-com/ajax/libs/cookieconsent2/3-1-0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#191d28"
+    },
+    "button": {
+      "background": "#ea0266",
+      "text": "#191d28"
+    }
+  },
+  "theme": "edgeless"
+})});
+</script>
+</body>
 </html>
