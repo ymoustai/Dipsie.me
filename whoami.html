@@ -357,7 +357,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="contact-form-area-wrapper">
-                            <form id="digita-contact-form" action="form.php" method="POST">
+                            <form id="digita-contact-form" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name">
                                 </div>
@@ -371,7 +371,7 @@
                                     <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Your message.."></textarea>
                                 </div>
                                 <div class="form-group">
-                                <div class="g-recaptcha" data-theme="dark" id="recaptcha" data-sitekey="6LfofZMUAAAAAO_WgFVt58CW4tzqTJcIf5Ti2Qb_"></div>
+
                             </div>
                                 <button type="submit" name="sendmail"  class="comman-btn about-me-btn">CONTACT ME
                                     <img src="img/brand-icons/hover-icon.png" alt="place img" class="">
@@ -457,7 +457,47 @@
     <script src="css/notyf/notyf.min.js"></script>
 <script src="google-com/recaptcha/api.js" async defer></script>
     <!-- end all js files. -->
-    
+    <script type="text/javascript">
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        }); 
+         $(document).ready(function() {
+            var contactForm = $("#digita-contact-form");
+            //We set our own custom submit function
+            contactForm.on("submit", function(e) {
+            //Prevent the default behavior of a form
+            e.preventDefault();
+            var name = $("input[name=name]").val();
+            var subject = $("input[name=subject]").val();
+            var email = $("input[name=email]").val();
+            var message = $("textarea[name=message]").val();
+            var respone = $("#g-recaptcha-response").val();
+            $.ajax({
+                type: 'POST',
+                url: '/contact',
+                data: {
+                    name: name,
+                    subject: subject,
+                    email: email,
+                    message: message,
+                    g_recaptcha_response: respone,
+                },
+                success: function (data) {
+                    var notyf = new Notyf();
+                    if (data.errors) {
+                        //check if response has errors object
+                        notyf.alert('You must fill out the form before moving forward.<br> And make sure you\'re not a robot!');
+                    } else {
+                        notyf.confirm(data.success);
+                        grecaptcha.reset();
+                    }
+                },
+            })
+        });
+    });
+    </script>
     <script src="cdnjs-cloudflare-com/ajax/libs/cookieconsent2/3-1-0/cookieconsent.min.js"></script>
 <script>
 window.addEventListener("load", function(){
