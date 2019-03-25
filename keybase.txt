@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dipsie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dipsie.me
+  * I am dipsie (https://keybase.io/dipsie) on keybase.
+  * I have a public key with fingerprint C392 30AD C0A9 638C AD0C  F194 4858 9ED9 AA0B C09C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b69589dfa28d65b55992764377416e996a8f07d9cd95bb0cbc2eca53506643080a",
+      "fingerprint": "c39230adc0a9638cad0cf19448589ed9aa0bc09c",
+      "host": "keybase.io",
+      "key_id": "48589ed9aa0bc09c",
+      "kid": "0101b69589dfa28d65b55992764377416e996a8f07d9cd95bb0cbc2eca53506643080a",
+      "uid": "5c36332b18e6aa04b9f465d0facd2b19",
+      "username": "dipsie"
+    },
+    "service": {
+      "hostname": "dipsie.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1553489215,
+  "expire_in": 157680000,
+  "prev": "7669b3cfecb4bbe2376ce28e8c0c9e3162f452a7388a8edd0123188ec0bbbf27",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIbAnicrVJbSFRBGF4via5FFw20C8WBhGiTOfeZg6RIPUUlWURhbHM7erzs2XaP
+q2LSQy89hNDNpKSQNSosCoS0C7GV4YOVVFRGGRFWSBJ2JerB5kg9BD02LzPzzfd9
+//f/zOCcjEAwbW6wfvj+udssbfjmocZAVefO0laJuKxFslqlOj6z8XrG4164zmGS
+JQEZyMRAOkTMxgpkhk50HSHFNDTVNDXZ4AgZGNrAZIgypBMCKKEKp1hXdWAIFoAA
+SyHJdiLVPBaNORFP2FIVKSrAjAKMDBVSzAC1ZaRpUFTiDGEMCAWICmGNG/cVIhzB
+cV7suAITl/BMvH/w/3Puxhk7naqGqipEhtwQtTSCbM3QGbAxZQJFPjHOYxHcwAWb
+OdG4w6W2kCSwhEO5P1a/j7/ei8U5JEVjrudSt17ANZ4XjVu+zGuJ+rwmTsK/HcLE
+iTAxQqFI8FjccSOSJQsm9RzfUtZ1VYNIkfWQxJujToyHHZ+hmwYEYvl1eEJYmoaB
+iEptTolGCFdU06BcgRxSQBFXZUOxNV3BpgohhpwxICuqDCGngBBiK6bk97Q74kqW
+JmLiamEZd6oj2GuMiYZvpaoyA2nBQNasdP9rBYI58/58uIbJ7MDV7qrab/Zg6kqL
+NVS46GduVsuKafVY5uWzF0v6Ow+Mdk7dONU2+uxVX3HH8AD7OAR7Kg+u/9CTcW/b
+/lmtm7+k78scSEweXLLdm0hWWskdAen04WUbso8+fXlyuqi0oPzr9o3j5/eiLXfa
+azOfFL1omMi2ajate3slj2R9bq0I9yrfCyu8I7jrxOKc5OxaJbfv8a5U/bXerSOl
+x8yyjv2v2/M11lW49+FYwdfpxrr+UPJBl5yxNrpnzd3J5emTC1KDZWM18zuOm9fd
+pvb3Bc3lI+0/4EB/amhl2erqR4EGc3nqVEV3+aepxWvfbMgrylKSF/IXXhrXpDO1
+fSVL56x6nvHuFzbGOi8=
+=KWdY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dipsie
+
+==================================================================
